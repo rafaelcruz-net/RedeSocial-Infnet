@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RedeSocial.Repository/1.0.0": {
+        "dependencies": {
+          "RedeSocial.CrossCutting": "1.0.0",
+          "RedeSocial.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RedeSocial.Repository.dll": {}
+        }
+      },
+      "RedeSocial.CrossCutting/1.0.0": {
+        "runtime": {
+          "RedeSocial.CrossCutting.dll": {}
+        }
+      },
+      "RedeSocial.Domain/1.0.0": {
+        "runtime": {
+          "RedeSocial.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RedeSocial.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RedeSocial.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RedeSocial.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

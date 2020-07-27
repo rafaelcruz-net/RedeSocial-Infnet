@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OebKsTCnRnMaqqSPHGv4PT+0LOv9rzwMgEjZBdbkV7wnD38z3sZ9jCumjc2Ralpsb/Y0LWR2C7iQskqXgkIvfg==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Infnet\\ProjetoBloco\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
