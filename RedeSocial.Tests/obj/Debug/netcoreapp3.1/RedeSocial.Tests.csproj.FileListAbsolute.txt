@@ -84,7 +84,6 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\bin\Debug\netcoreapp
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.csprojAssemblyReference.cache
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.AssemblyInfoInputs.cache
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.AssemblyInfo.cs
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.csproj.CoreCompileInputs.cache
@@ -92,3 +91,4 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.pdb
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.genruntimeconfig.cache
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.csprojAssemblyReference.cache

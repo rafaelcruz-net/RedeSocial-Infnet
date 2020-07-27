@@ -8,7 +8,7 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\bin\Debug\netco
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csprojAssemblyReference.cache
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.AssemblyInfoInputs.cache
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.AssemblyInfo.cs
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csproj.CoreCompileInputs.cache
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csproj.CopyComplete
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.pdb
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Repository\obj\Debug\netcoreapp3.1\RedeSocial.Repository.csproj.CoreCompileInputs.cache

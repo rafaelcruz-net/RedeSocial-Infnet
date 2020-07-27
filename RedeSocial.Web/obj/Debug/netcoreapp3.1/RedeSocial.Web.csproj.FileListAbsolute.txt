@@ -1,3 +1,11 @@
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csprojAssemblyReference.cache
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.AssemblyInfoInputs.cache
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.AssemblyInfo.cs
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csproj.CoreCompileInputs.cache
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorAssemblyInfo.cache
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorAssemblyInfo.cs
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -65,14 +73,6 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\RedeSocial.CrossCutting.pdb
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\RedeSocial.Domain.pdb
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\RedeSocial.Repository.pdb
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csprojAssemblyReference.cache
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.AssemblyInfoInputs.cache
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.AssemblyInfo.cs
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.csproj.CoreCompileInputs.cache
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.MvcApplicationPartsAssemblyInfo.cache
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorAssemblyInfo.cache
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorAssemblyInfo.cs
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.TagHelpers.input.cache
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.TagHelpers.output.cache
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\RedeSocial.Web.RazorCoreGenerate.cache

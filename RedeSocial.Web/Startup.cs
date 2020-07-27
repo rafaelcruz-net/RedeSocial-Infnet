@@ -8,11 +8,14 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
-using RedeSocial.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RedeSocial.Domain.Account;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using RedeSocial.Domain.Account.Repository;
+using RedeSocial.Repository.Account;
+using RedeSocial.Services.Account;
 
 namespace RedeSocial.Web
 {
@@ -28,13 +31,23 @@ namespace RedeSocial.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IAccountRepository, ApplicationDbContext>();
+            services.AddTransient<IAccountService, AccountService>();
+
             services.AddDbContext<ApplicationDbContext>(options =>
-                
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddIdentity<Account, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/Login";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+                options.ReturnUrlParameter = CookieAuthenticationDefaults.ReturnUrlParameter;
+            });
             
             services.AddControllersWithViews();
             
