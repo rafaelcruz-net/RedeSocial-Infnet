@@ -43,8 +43,6 @@ namespace RedeSocial.Web
                 opt.UseSqlServer(Configuration.GetConnectionString("RedeSocialConnection"));
             });
 
-
-
             services.AddIdentity<Account, Profile>()
                     .AddDefaultTokenProviders();
 

@@ -20,7 +20,7 @@ namespace RedeSocial.Repository.Mapping
             builder.Property(x => x.Password).IsRequired().HasMaxLength(150);
             builder.Property(x => x.DtBirthday).IsRequired();
 
-            builder.HasMany(x => x.Profiles).WithOne();
+            builder.HasOne(x => x.Profile).WithMany(x => x.Accounts);
 
         }
     }
