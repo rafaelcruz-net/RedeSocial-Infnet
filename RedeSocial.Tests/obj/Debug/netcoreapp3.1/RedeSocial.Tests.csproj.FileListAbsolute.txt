@@ -91,4 +91,3 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.pdb
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.genruntimeconfig.cache
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Tests\obj\Debug\netcoreapp3.1\RedeSocial.Tests.csprojAssemblyReference.cache

@@ -6,4 +6,3 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreap
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreapp3.1\RedeSocial.Domain.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreapp3.1\RedeSocial.Domain.pdb
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreapp3.1\RedeSocial.Domain.csproj.CoreCompileInputs.cache
-C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Domain\obj\Debug\netcoreapp3.1\RedeSocial.Domain.csprojAssemblyReference.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QwiFg1yepI096LH7HGaeFcplQ+YtRAERqkVjEHPrwo8gOa0G+1Slqoip3WYMrQhuI9gsUJeyphqqji4mDSX4dQ==",
+  "dgSpecHash": "0VxWan06fltYNulNa6TWGJFZesErQvqd1FbwksSNF/0poKgh9+PXIS4o9Fp3B3/qIGl2dN+iKLUHwOlVEX/zSw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Infnet\\ProjetoBloco\\RedeSocial\\RedeSocial.API\\RedeSocial.API.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,10 @@
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.6\\microsoft.extensions.identity.stores.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\microsoft.extensions.logging.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.6\\microsoft.extensions.logging.configuration.3.1.6.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.6\\microsoft.extensions.logging.console.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.6\\microsoft.extensions.options.configurationextensions.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",

@@ -50,3 +50,6 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.1\RedeSocial.API.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.1\RedeSocial.API.pdb
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\obj\Debug\netcoreapp3.1\RedeSocial.API.genruntimeconfig.cache
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll

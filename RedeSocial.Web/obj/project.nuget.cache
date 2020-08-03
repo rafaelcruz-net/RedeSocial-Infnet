@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/7cYE7wKHEGFQiE7eTxKKRdR2c1l1+DZhACCyBLy7g3zteCvsjw7Ih3UmxgxGc23wWtNgSaHilOvtaQGyvof8w==",
+  "dgSpecHash": "TknCh8Ed3lOrIrF8FjIyxhMH0cySzPUNGsrPphgFmqfnR8rx0sF2K+TQtWN248+qbVFN9GN1JMwMhjvjXQnakw==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Infnet\\ProjetoBloco\\RedeSocial\\RedeSocial.Web\\RedeSocial.Web.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,10 @@
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.6\\microsoft.extensions.identity.stores.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\microsoft.extensions.logging.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.6\\microsoft.extensions.logging.configuration.3.1.6.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.6\\microsoft.extensions.logging.console.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.6\\microsoft.extensions.options.configurationextensions.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\rafae\\.nuget\\packages\\microsoft.identity.client\\3.0.8\\microsoft.identity.client.3.0.8.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",

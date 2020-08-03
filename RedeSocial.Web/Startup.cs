@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using RedeSocial.Domain.Account.Repository;
 using RedeSocial.Repository.Account;
 using RedeSocial.Services.Account;
+using RedeSocial.Repository.Context;
 
 namespace RedeSocial.Web
 {
@@ -31,15 +32,21 @@ namespace RedeSocial.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IAccountRepository, ApplicationDbContext>();
+            services.AddTransient<IAccountRepository, AccountRepository>();
+            services.AddTransient<IUserStore<Account>, AccountRepository>();
+            services.AddTransient<IRoleStore<Profile>, ProfileRepository>();
+            services.AddTransient<IAccountIdentityManager, AccountIdentityManager>();
             services.AddTransient<IAccountService, AccountService>();
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<RedeSocialContext>(opt =>
+            {
+                opt.UseSqlServer(Configuration.GetConnectionString("RedeSocialConnection"));
+            });
 
-            services.AddIdentity<Account, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
+
+
+            services.AddIdentity<Account, Profile>()
+                    .AddDefaultTokenProviders();
 
             services.ConfigureApplicationCookie(options =>
             {
