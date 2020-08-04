@@ -20,9 +20,9 @@ namespace RedeSocial.Services.Account
 
         }
 
-        public async Task<SignInResult> Login(string email, string password)
+        public async Task<SignInResult> Login(string userName, string password)
         {
-            var account = await this.Repository.GetAccountByEmailPassword(email, password);
+            var account = await this.Repository.GetAccountByUserNamePassword(userName, password);
 
             if (account == null)
             {

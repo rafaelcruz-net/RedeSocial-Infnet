@@ -14,5 +14,6 @@ namespace RedeSocial.Domain.Account
         public String Email { get; set; }
         public String Password { get; set; }
         public Role Role { get; set; }
+        public string UserName { get; set; }
     }
 }

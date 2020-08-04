@@ -36,7 +36,7 @@ namespace RedeSocial.Web.Controllers
             
             try
             {
-                var result = await this.AccountIdentityManager.Login(model.Email, model.Password);
+                var result = await this.AccountIdentityManager.Login(model.UserName, model.Password);
 
                 if (!result.Succeeded)
                 {
