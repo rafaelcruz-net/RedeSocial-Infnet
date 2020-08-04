@@ -24,13 +24,14 @@ namespace RedeSocial.Web.Controllers
             return View();
         }
 
-        public IActionResult Login()
+        public IActionResult Login(string returnUrl = "")
         {
+            ViewBag.ReturnUrl = returnUrl;
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel model)
+        public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
         {
             
             try
@@ -42,6 +43,9 @@ namespace RedeSocial.Web.Controllers
                     ModelState.AddModelError(string.Empty, "Login ou senha inválidos");
                     return View(model);
                 }
+
+                if (!String.IsNullOrWhiteSpace(returnUrl))
+                    return Redirect(returnUrl);
 
                 return Redirect("/");
             }

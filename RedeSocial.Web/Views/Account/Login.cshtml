@@ -9,7 +9,7 @@
 </div>
 
 <div asp-validation-summary="All" class="text-danger"></div>
-<form asp-action="Login" asp-controller="Account" method="post">
+<form asp-action="Login" asp-controller="Account" method="post" asp-route-returnurl="@ViewBag.ReturnUrl" >
     <div class="form-group">
         <label asp-for="Email" >Email</label>
         <input type="email" asp-for="Email" class="form-control" placeholder="Email">
