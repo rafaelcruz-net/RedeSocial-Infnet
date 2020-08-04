@@ -13,6 +13,6 @@ namespace RedeSocial.Domain.Account
         public DateTime DtBirthday { get; set; }
         public String Email { get; set; }
         public String Password { get; set; }
-        public Profile Profile { get; set; }
+        public Role Role { get; set; }
     }
 }

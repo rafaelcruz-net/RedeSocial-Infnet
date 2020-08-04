@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RedeSocial.Services.Account;
+using RedeSocial.Web.ViewModel.Account;
 
 namespace RedeSocial.Web.Controllers
 {
@@ -27,6 +28,33 @@ namespace RedeSocial.Web.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            
+            try
+            {
+                var result = await this.AccountIdentityManager.Login(model.Email, model.Password);
+
+                if (!result.Succeeded)
+                {
+                    ModelState.AddModelError(string.Empty, "Login ou senha inválidos");
+                    return View(model);
+                }
+
+                return Redirect("/");
+            }
+            catch
+            {
+                ModelState.AddModelError(string.Empty, "Ocorreu um erro, por favor tente mais tarde.");
+                return View(model);
+            }
+            
+        }
+
+
+
 
     }
 }

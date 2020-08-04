@@ -38,8 +38,6 @@ namespace RedeSocial.Repository.Account
             return IdentityResult.Success;
         }
 
-       
-
         public Task<Domain.Account.Account> FindByIdAsync(string userId, CancellationToken cancellationToken)
         {
             return this.Context.Accounts.FirstOrDefaultAsync(x => x.Id == new Guid(userId));
@@ -52,7 +50,7 @@ namespace RedeSocial.Repository.Account
 
         public Task<string> GetNormalizedUserNameAsync(Domain.Account.Account user, CancellationToken cancellationToken)
         {
-            return Task.FromResult(user.Name);
+            return Task.FromResult(user.Email);
         }
 
         public Task<string> GetUserIdAsync(Domain.Account.Account user, CancellationToken cancellationToken)
@@ -62,17 +60,20 @@ namespace RedeSocial.Repository.Account
 
         public Task<string> GetUserNameAsync(Domain.Account.Account user, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(user.Email.ToString());
         }
 
         public Task SetNormalizedUserNameAsync(Domain.Account.Account user, string normalizedName, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            user.Email = normalizedName;
+            return Task.CompletedTask;
+            
         }
 
         public Task SetUserNameAsync(Domain.Account.Account user, string userName, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            user.Email = userName;
+            return Task.CompletedTask;
         }
 
         public async Task<IdentityResult> UpdateAsync(Domain.Account.Account user, CancellationToken cancellationToken)
@@ -88,6 +89,16 @@ namespace RedeSocial.Repository.Account
             return IdentityResult.Success;
 
         }
+
+        public Task<Domain.Account.Account> GetAccountByEmailPassword(string email, string password)
+        {
+            return Task.FromResult(this.Context.Accounts
+                                               .Include(x => x.Role)
+                                               .FirstOrDefault(x => x.Email == email && x.Password == password));
+        }
+
+
+        #region Dispose Implementation
 
         protected virtual void Dispose(bool disposing)
         {
@@ -117,5 +128,7 @@ namespace RedeSocial.Repository.Account
             Dispose(disposing: true);
             GC.SuppressFinalize(this);
         }
+        #endregion
+
     }
 }
