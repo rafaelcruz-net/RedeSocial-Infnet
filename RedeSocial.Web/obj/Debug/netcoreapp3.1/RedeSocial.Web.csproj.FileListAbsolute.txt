@@ -97,3 +97,5 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Report.cshtml.g.cs
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_HelloUser.cshtml.g.cs

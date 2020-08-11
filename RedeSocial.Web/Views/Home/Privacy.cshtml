@@ -1,6 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
+
+
+@section PreFooter {
+    <div class="text-center">
+        <h1 class="display-4">ESSA É A RENDERIZAÇÃO DA SECAO PRE FOOTER</h1>
+    </div>
+}
+
+@Html.Partial("_HelloUser")
+
 
 <p>Use this page to detail your site's privacy policy.</p>
