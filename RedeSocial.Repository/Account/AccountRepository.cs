@@ -27,7 +27,7 @@ namespace RedeSocial.Repository.Account
         public async Task<IdentityResult> CreateAsync(Domain.Account.Account user, CancellationToken cancellationToken)
         {
             this.Context.Accounts.Add(user);
-            await this.Context.SaveChangesAsync();
+            this.Context.SaveChangesAsync();
             return IdentityResult.Success;
         }
 

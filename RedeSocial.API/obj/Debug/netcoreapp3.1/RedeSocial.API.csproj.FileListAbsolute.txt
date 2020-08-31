@@ -67,3 +67,10 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

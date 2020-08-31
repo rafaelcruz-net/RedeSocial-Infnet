@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RedeSocial.CrossCutting\RedeSocial.CrossCutting.csproj" />
     <ProjectReference Include="..\RedeSocial.Services\RedeSocial.Services.csproj" />
   </ItemGroup>
 

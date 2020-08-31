@@ -40,6 +40,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.5.1, )"
+            },
+            "Microsoft.Azure.Storage.Blob": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -322,6 +336,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Projetos\\Infnet\\ProjetoBloco\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj": {
+                "projectPath": "C:\\Projetos\\Infnet\\ProjetoBloco\\RedeSocial\\RedeSocial.CrossCutting\\RedeSocial.CrossCutting.csproj"
+              },
               "C:\\Projetos\\Infnet\\ProjetoBloco\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj": {
                 "projectPath": "C:\\Projetos\\Infnet\\ProjetoBloco\\RedeSocial\\RedeSocial.Services\\RedeSocial.Services.csproj"
               }

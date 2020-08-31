@@ -17,6 +17,7 @@ using RedeSocial.Domain.Account.Repository;
 using RedeSocial.Repository.Account;
 using RedeSocial.Services.Account;
 using RedeSocial.Repository.Context;
+using RedeSocial.CrossCutting.Storage;
 
 namespace RedeSocial.Web
 {
@@ -37,6 +38,10 @@ namespace RedeSocial.Web
             services.AddTransient<IRoleStore<Role>, RoleRepository>();
             services.AddTransient<IAccountIdentityManager, AccountIdentityManager>();
             services.AddTransient<IAccountService, AccountService>();
+            
+            //Azure Blob Storage Configuration
+            services.AddTransient<AzureStorage>();
+            services.Configure<AzureStorageOptions>(Configuration.GetSection("Microsoft.Storage"));
 
             services.AddDbContext<RedeSocialContext>(opt =>
             {

@@ -99,3 +99,11 @@ C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Report.cshtml.g.cs
 C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_HelloUser.cshtml.g.cs
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Blob.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Upload\Create.cshtml.g.cs
+C:\Projetos\Infnet\ProjetoBloco\RedeSocial\RedeSocial.Web\obj\Debug\netcoreapp3.1\Razor\Views\Upload\Index.cshtml.g.cs
