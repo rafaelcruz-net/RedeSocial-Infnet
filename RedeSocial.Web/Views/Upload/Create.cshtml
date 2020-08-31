@@ -5,7 +5,7 @@
 
     @if (ViewBag.UrlGerada != null)
     {
-        <a href="@ViewBag.UrlGerada" target="_blank">Ver Arquivo no azure</a>
+        <img src="@ViewBag.UrlGerada" />
     }
 
     <form asp-action="Create" asp-controller="Upload" method="post" enctype="multipart/form-data">
